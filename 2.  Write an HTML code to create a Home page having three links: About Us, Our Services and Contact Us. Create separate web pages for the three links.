@@ -1,0 +1,9 @@
+<!Doctype html5>
+<html>
+<body>
+<h4>HOME PAGE HAVING THREE LINKS :</h4>
+<a href = "About us.html">ABOUT US</a>
+<a href = "Our sevices.html">OUR SERVICES</a>
+<a href = "Contact Us.html">CONTACT US</a>
+</body>
+</html>
