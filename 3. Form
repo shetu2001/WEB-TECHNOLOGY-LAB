@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<body>
+<form>
+<p><b> A form used to set a users preference for links:</b><p>
+<p>Choose a color for links:
+<select id="colors" name="colors">
+    <option value="Green">Green</option>
+    <option value="Blue">Blue</option>
+    <option value="Gray">Gray</option>
+    <option value="Teal">Teal</option>
+</select></p>
+<p>Underline links? <input type="radio">Yes<input type="radio">No<br>
+<button type="button">Submit</button>
+<button type="submit">Reset</button>
+<hr>
+<p><b>A form used to register a user to a form:</b><p>
+<fieldset>
+<legend>Register now</legend>
+<label>Name:</label>
+<input type="text" 
+name="name" required><br>
+<br>
+<label>E-mail:</label>
+<input type="text"
+name="email" requirement><br>
+<br>
+<p>Which web browser do you use?(Check all that apply)</p>
+<input type="checkbox" checked="checked">Firefox<br>
+<input type="checkbox" checked="checked">Chrome<br>
+<input type="checkbox" checked="checked">Opera<br>
+<input type="checkbox" checked="checked">Safari<br>
+<input type="checkbox" checked="checked">Internet Explorer<br>
+<input type="checkbox" checked="checked">Other<br>
+<p>Enter a forum signature:</p>
+<textarea name="forumsignature" 
+rows="5" cols="40"></textarea><br>
+<label>Choose a password:</label>
+<input type="password" 
+name="password" required><br>
+<br>
+<label>Re-type password:</label>
+<input type="password"
+name="r_password" requirement><br>
+<br>
+<button type="button">Submit</button>
+<button type="submit">Reset</button>
+</fieldset>
+</form>
+</body>
+</html>
